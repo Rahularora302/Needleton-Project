@@ -1,6 +1,6 @@
 Needleton
 
-Needleton is a fashion page on Instagram with a growing community of 3.2k followers. This repository hosts the code for the NeedleTon website, where users can explore the latest trends, discover new product.
+Needleton is a fashion page on Instagram with a growing community of 7.4k followers. This repository hosts the code for the NeedleTon website, where users can explore the latest trends, discover new product.
 
 Features
 
