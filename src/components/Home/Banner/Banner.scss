@@ -1,0 +1,130 @@
+@import "../../../css-config/mixins.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Oleo+Script+Swash+Caps&display=swap');
+.hero-banner {
+    padding: 40px 0;
+    position: relative;
+   // margin-bottom:-50px;
+    //background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+   // background-color:#000;
+    background-image: linear-gradient(to right, #000 15%, #323436);
+    @include md {
+        height: calc(100vh - 80px);
+    }
+
+    .content {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column-reverse;
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+        position: relative;
+
+        @include md {
+            flex-direction: row;
+            max-width: 1200px;
+        }
+
+        .banner-img {
+            position: relative;
+            z-index: 9;
+            width: 355px;
+            margin-bottom: 25px;
+
+            margin-top: -85px;
+            @include md {
+                width: 500px;
+                //max-width:2000%;
+                //height:auto;
+                margin-top: 30px;
+                margin-right: 20px;
+                //margin-top: 150px;
+                margin-bottom: 130px;
+            }
+
+            @include xxl {
+                width: 600px;
+                margin-right: 0;
+                margin-top: 0;
+            }
+        }
+
+        .text-content {
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          
+            @include md {
+
+                position: absolute;
+                left: 20px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            @include xxl {
+                left: 0;
+            }
+
+            h1 {
+            //font-family: 'Oleo Script Swash Caps', cursive;
+            font-family:'Lovers Quarrel',cursive;
+           //font-family:'Times New Roman', Times, serif;
+            
+                font-size: 180px;
+                font-weight: 700;
+                line-height: .8;
+                color: white;
+
+                @include md {
+                    font-size: 320px;
+                }
+            }
+
+            p {
+                font-family: 'Lovers Quarrel', cursive;
+                max-width: 300px;
+                font-size: 43px;
+                line-height: 20px;
+                margin-bottom: 40px;
+
+                @include md {
+                    max-width: 500px;
+                    font-size: 78px;
+                    line-height: 24px;
+                    margin-bottom: 60px;
+                }
+            }
+
+            .ctas {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+
+                .banner-cta {
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-weight: 500;
+                    width: fit-content;
+                    border: 2px solid white;
+                    padding: 10px 20px;
+                    transition: all ease 0.3s;
+                    cursor: pointer;
+
+                    &.v2 {
+                        background-color: white;
+                        color: black;
+                    }
+
+                    &:hover {
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@import "../../css-config/mixins.scss";
+
+
+.main-content {
+    .layout {
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+   
+        @include md {
+            //background-image: linear-gradient(to right, #000 15%, #323436);
+            max-width: 1200px;
+        }
+    }
+}
