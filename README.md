@@ -2,21 +2,10 @@ Needleton
 
 Needleton is a fashion page on Instagram with a growing community of 7.4k followers. This repository hosts the code for the NeedleTon website, where users can explore the latest trends, discover new product.
 
-Features
-
-*Browse through a curated collection of fashion products and accessories.
-
-*Seamlessly search for specific items using our advanced search functionality.
-
-*Add desired products to your cart and proceed to secure checkout with integrated payment gateways.
-
-*Stay updated with the latest fashion trends through our engaging blog section.
-
-*Contact us directly via the integrated enquiry form for any queries or feedback.
 
 Technologies Used
 
-Frontend: SCSS, JavaScript, React.js.
+Frontend:JavaScript, React.js.
 Backend: Employed Strapi as a backend CMS to manage photos and descriptions on the web pages.
 Database: Firebase (Firestore).
 Authentication: Google OAuth.
