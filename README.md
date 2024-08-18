@@ -23,7 +23,7 @@ Authentication: Google OAuth.
 Payment Gateway: Stripe.
 
 
-We welcome contributions to enhance the Needleton platform. If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
+
 
 
 
