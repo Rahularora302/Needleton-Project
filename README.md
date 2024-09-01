@@ -27,4 +27,3 @@ Payment Gateway: Stripe.
 <img width="900" alt="Screenshot 2023-07-10 at 12 01 32 AM" src="https://github.com/Rahularora302/client/assets/136925824/966af94f-e62e-4eef-ad9b-a712e791d695">
 <img width="900" alt="Screenshot 2023-07-10 at 12 02 35 AM" src="https://github.com/Rahularora302/client/assets/136925824/34b41859-9bf6-4a76-9f2e-ef93f45c2327">
 
-<img width="900" alt="Screenshot 2023-07-09 at 11 57 51 PM" src="https://github.com/Rahularora302/client/assets/136925824/735addc4-a518-417e-8a34-3518a922a90e">
